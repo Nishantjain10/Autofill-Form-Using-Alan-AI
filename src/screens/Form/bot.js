@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
-
+import './bot.css'
 
 function Bot() {
     const [name, setName] = useState('');
@@ -24,7 +24,12 @@ function Bot() {
     });
   }, []);
   return (
-    <div className='form-fields'>
+    <div className="division"> 
+      <div className='form-fields'>
+        <div className="head">
+        <h2>Welcome</h2>
+        <h3>Fill Out Your Details!</h3>
+        </div>
       <input
         placeholder='Name'
         name='name'
@@ -49,6 +54,11 @@ function Bot() {
 
       <button className='submit-btn'>Submit</button>
     </div>
+      <div>
+
+      </div>
+    </div>
+
   );
 }
 

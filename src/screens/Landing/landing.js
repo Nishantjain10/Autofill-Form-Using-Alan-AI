@@ -1,5 +1,7 @@
 import React from 'react'
-// import Image from '../images/robot-img.png'
+import Image from '../Image/robot-img.png'
+import {Link} from 'react-router-dom';
+// import Bot from '../bot'
 import './Landing.css'
 
 function Landing() {
@@ -20,10 +22,10 @@ function Landing() {
     <div className="main">
         <div className="text-box">
             <h1>Use Voice Assistant To Fill Your Form</h1>
-            <button>Try VoiceForm</button>
+            <Link to="/bot" className="btn btn-primary">Try Voice Form</Link>
         </div>
         <div className="img-box">
-            {/* <img src={Image} alt=""/> */}
+            <img src={Image} alt=""/>
         </div>
     </div>
 </div>

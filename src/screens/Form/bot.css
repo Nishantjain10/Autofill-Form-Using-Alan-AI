@@ -1,0 +1,39 @@
+.division{
+    float:left;
+    display:flex;
+}
+
+.form-fields{
+    width:100%;
+    margin-top:150px;
+    margin-left:100px;
+    border:2px solid black;
+    border-radius:15%;
+    box-shadow: 5px 10px #888888;
+    height:400px;
+    background-color:rgb(151, 149, 199);
+}
+
+.form-fields input{
+    border:2px solid black;
+    
+    border-radius:15px;
+}
+.head{
+    text-align:center;
+}
+
+
+.submit-btn{
+    border:2px solid black;
+    /* width:100px; */
+    height:40px;
+    border-radius:20px;
+    background-color:rgb(25, 25, 112);
+    color:white;
+}
+
+.submit-btn:hover{
+    background-color:white;
+    color:rgb(25, 25, 112);
+}

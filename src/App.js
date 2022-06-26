@@ -1,4 +1,4 @@
-import Bot from './screens/bot';
+import Bot from './screens/Form/bot';
 import Landing from './screens/Landing/landing';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

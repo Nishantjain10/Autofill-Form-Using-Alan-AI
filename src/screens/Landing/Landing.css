@@ -12,13 +12,14 @@
 
 .container {
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .nav-section{
     font-size: 1.5rem;
     color: #20201E;
-    padding-left: 60px;
+    /* background-color:black; */
+    /* padding-left: 20px; */
 }
 
 .nav-section:hover {
@@ -32,7 +33,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-   padding-right: 100px;
+    padding-right: 100px;
+   
 }
 
 
@@ -69,7 +71,7 @@
     width: 450px;
 }
 
-.text-box button{
+.btn {
     padding: 15px 30px;
     border-radius: 5px;
     border: 2px solid #4285F4;
@@ -77,11 +79,12 @@
     cursor: pointer;
     color: #4285F4;
     font-size: large;
+    text-decoration:none;
     margin-top: 50px;
     transition: .5s ease;
 }
 
-.text-box button:hover{
+.btn:hover{
     background-color: #4285F4;
     color: white;
 }
