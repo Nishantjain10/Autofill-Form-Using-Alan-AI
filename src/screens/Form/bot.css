@@ -1,8 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 .division{
@@ -11,6 +8,7 @@
         justify-content: space-between;
         align-items: center;
         height: 100vh;
+        font-family: sans-serif;
 }
 
 .form-fields{

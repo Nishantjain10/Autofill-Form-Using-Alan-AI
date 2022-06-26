@@ -6,7 +6,7 @@ import './Landing.css'
 
 function Landing() {
     return(
-    <div className='body-background'>
+    <div className='body-background container'>
         <nav className="navigation-bar container">
         <div className="nav-section">
            <h1>VoiceForm</h1>
