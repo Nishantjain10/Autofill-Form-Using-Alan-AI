@@ -57,6 +57,7 @@ function Bot() {
       <div className='Command-section'>
         <ul className='list-option-points'>
           <h1 className='list-heading'>Hey,Your Guide Here!</h1>
+          <li className='list-points-item'>Click on the Microphone Icon at the Bottom Right corner to Start.</li>
           <li className='list-points-item'>Try Saying, My name is 'John'.</li>
           <li className='list-points-item'>Try Saying, My Phone Number is '91055 XXX25'.</li>
           <li className='list-points-item'>Try Saying, I live at/in 'India'.</li>
