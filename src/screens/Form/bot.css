@@ -1,39 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .division{
-    float:left;
-    display:flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
 }
 
 .form-fields{
-    width:100%;
-    margin-top:150px;
     margin-left:100px;
+    width:400px;
     border:2px solid black;
-    border-radius:15%;
-    box-shadow: 5px 10px #130f0f;
-    height:400px;
-    background-color:rgb(151, 149, 199);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height:500px;
+    background-color:#15172b;
+    color: white;
+    line-height: 1.5;
 }
 
 .form-fields input{
-    border:2px solid black;
-    
-    border-radius:15px;
+border:none;
+padding: 16px 15px;
+width: 80%;
+border-radius:5px;
+background-color: #303245;
+color: white;
 }
+
 .head{
-    text-align:center;
+text-align:center;
 }
 
 
 .submit-btn{
-    border:2px solid black;
-    /* width:100px; */
-    height:40px;
-    border-radius:20px;
-    background-color:rgb(25, 25, 112);
-    color:white;
+border: none;
+/* width:100px; */
+font-size: 1.2rem;
+border-radius:5px;
+background-color:rgb(0, 153, 235);
+color:white;
+padding: 10px 30px;
+cursor: pointer;
+transition: .5s ease;
 }
 
 .submit-btn:hover{
-    background-color:white;
-    color:rgb(25, 25, 112);
+background-color:white;
+color:rgb(25, 25, 112);
+}
+
+.Command-section {
+    width: 600px;
+    line-height: 1.5;
+}
+
+.list-option-points {
+    margin-right: 200px;
+    margin-top: -80px;
+}
+
+.list-heading {
+    color:dodgerblue;
+    font-size: 2.4rem;
+    margin-left: -20px;
+}
+
+.list-points-item {
+   margin-top: 20px;
+   color: rgb(78, 75, 75);
+   
 }

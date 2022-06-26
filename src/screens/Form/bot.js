@@ -54,8 +54,15 @@ function Bot() {
 
       <button className='submit-btn'>Submit</button>
     </div>
-      <div>
-
+      <div className='Command-section'>
+        <ul className='list-option-points'>
+          <h1 className='list-heading'>Hey,Your Guide Here!</h1>
+          <li className='list-points-item'>Try Saying, My name is 'John'.</li>
+          <li className='list-points-item'>Try Saying, My Phone Number is '91055 XXX25'.</li>
+          <li className='list-points-item'>Try Saying, I live at/in 'India'.</li>
+          <li className='list-points-item'>Just use this commands, The form input will be directly filled.</li>
+          <p><i><br/>Thanks for Visiting</i></p>
+        </ul>
       </div>
     </div>
 
