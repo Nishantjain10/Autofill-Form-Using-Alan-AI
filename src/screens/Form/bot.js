@@ -61,7 +61,7 @@ function Bot() {
           <li className='list-points-item'>Try Saying, My name is 'John'.</li>
           <li className='list-points-item'>Try Saying, My Phone Number is '91055 XXX25'.</li>
           <li className='list-points-item'>Try Saying, I live at/in 'India'.</li>
-          <li className='list-points-item'>Just use this commands, The form input will be directly filled.</li>
+          <li className='list-points-item'>Just use this commands, The form input field will be filled directly.</li>
           <p><i><br/>Thanks for Visiting</i></p>
         </ul>
       </div>
