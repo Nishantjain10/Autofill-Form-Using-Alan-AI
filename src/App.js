@@ -6,9 +6,6 @@ import './App.css';
 
 
 function App() {
-  useEffect(() => {
-    document.title = "This is a title"
-  }, [])
   return (
     <React.Fragment>
       <BrowserRouter>
