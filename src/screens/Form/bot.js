@@ -4,9 +4,10 @@ import './bot.css'
 
 function Bot() {
     const [name, setName] = useState('');
-  const [phone, setPhone] = useState('')
-  const [address, setAddress] = useState('');
-  const ALAN_Key = `96bd99c3882a0fa848348b1c9fd575412e956eca572e1d8b807a3e2338fdd0dc/stage`
+    const [phone, setPhone] = useState('')
+    const [address, setAddress] = useState('');
+    const [submit, setSubmit] = useState(false);
+    const ALAN_Key = `96bd99c3882a0fa848348b1c9fd575412e956eca572e1d8b807a3e2338fdd0dc/stage`
   useEffect(() => {
     alanBtn({
         key: ALAN_Key,
@@ -19,6 +20,12 @@ function Bot() {
           }
           if(commandData.command === 'address'){
             setAddress(commandData.data)
+          }
+          if (commandData.command === 'submit'){ 
+              document.getElementById('submit-button').click()
+              document.getElementById('submit-button').focus()
+              console.log('submit-working');
+              console.log(document.getElementById('submit-button'));
           }
         }
     });
@@ -51,16 +58,19 @@ function Bot() {
         value={address}
         type='text'
       />
-
-      <button className='submit-btn'>Submit</button>
+      <button id='submit-button' className="button">
+      <span className="text">Submit</span>
+      <i class="ri-check-line icon"></i>
+      </button>
     </div>
-      <div className='Command-section'>
+      <div className='command-section'>
         <ul className='list-option-points'>
           <h1 className='list-heading'>Hey,Your Guide Here!</h1>
           <li className='list-points-item'>Click on the Microphone Icon at the Bottom Right corner to Start.</li>
           <li className='list-points-item'>Try Saying, My name is 'John'.</li>
           <li className='list-points-item'>Try Saying, My Phone Number is '91055 XXX25'.</li>
           <li className='list-points-item'>Try Saying, I live at/in 'India'.</li>
+          <li className='list-points-item'>Try Saying, Submit the Form!</li>
           <li className='list-points-item'>Just use this commands, The form input field will be filled directly.</li>
           <p><i><br/>Thanks for Visiting</i></p>
         </ul>
